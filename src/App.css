@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.profile-pic {
+  width: 150px;     /* adjust size */
+  height: 150px;    /* keep it square */
+  border-radius: 50%; /* make it round */
+  object-fit: cover; /* crop nicely if not square */
+  margin: 20px 0;
+  border: 3px solid #333; /* optional border */
+}
